@@ -1,0 +1,58 @@
+header{
+  position: relative;
+  flex-direction: column;
+  display: flex;
+  top: 0;
+  margin: auto;
+  padding: 10px;
+  width: 100%;
+  border-bottom: 5px white dashed;
+  background-color: #ff0066;
+}
+
+.sitetitle{
+  text-align: center;
+  font-family: KawaiiStitch;
+  font-size: 150px;
+  color: #892ca0;
+  text-shadow: 5px 5px #ffd5d5;
+}
+
+.center{
+  margin: auto;
+}
+
+.info{
+  float: left;
+  width: 47%;
+  background-color: white;
+  padding: 7px;
+  margin: 5px 10px 5px 10px;
+  border: 1px solid #892ca0;
+}
+
+.trailer {
+  float: right;
+  width: 47%;
+  background-color: white;
+  padding: 7px;
+  margin: 5px;
+  border: 1px solid #892ca0;
+}
+
+p {
+  font-size: 16px;
+  padding: 7px;
+}
+
+h3{
+  font-size: 40px;
+  font-family: KawaiiStitch;
+  text-align: center;
+  color: #892ca0;
+}
+
+.video {
+  text-align: center;
+  margin-top: 125px;
+}

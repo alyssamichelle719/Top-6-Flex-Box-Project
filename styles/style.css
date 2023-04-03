@@ -1,0 +1,155 @@
+html{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+body {
+  overflow-x: hidden;
+  background:url(/images/background.png);
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: no-wrap;
+}
+
+@font-face{
+  font-family: KawaiiStitch;
+  src: url(/fonts/Kawaii\ Stitch.ttf);
+  font-weight: none;
+}
+
+/* Header Stylings w Nav Bar and Title */
+
+header{
+  position: relative;
+  flex-direction: column;
+  display: flex;
+  top: 0;
+  margin: auto;
+  padding: 10px;
+  width: 100%;
+  border-bottom: 5px white dashed;
+  background-color: #ff0066;
+}
+
+.sitetitle{
+  text-align: center;
+  font-family: KawaiiStitch;
+  font-size: 150px;
+  color: #892ca0;
+  text-shadow: 5px 5px #ffd5d5;
+}
+
+nav{
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav li a{
+  display: inline-block;
+  list-style-type: none;
+  text-decoration: none;
+  color: #892ca0;
+  width: 150px;
+  padding: 7px;
+  background-color:#ffd5d5 ;
+  border: 3px solid white;
+  border-radius: 10px;
+  transition: ease;
+  transition-duration: 1s;
+}
+
+nav li a:hover{
+  color: white;
+  background-color: #892ca0;
+  border: 3px solid #ffd5d5;
+  width: 150px;
+}
+
+
+/* Main Flex Content Styling */
+
+main{
+  width: 90%;
+  position: relative;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0px 10px 0px 10px #892ca0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main .boxes{
+  background-color: #ffd5d5;
+  padding: 20px;
+  width: 400px;
+  height: 200px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 12px;
+  color: black;
+}
+
+.flex_images{
+  width: 150px;
+  height: 200px;
+}
+
+.index_txt{
+  position: relative;
+  left: 170px;
+  top: -190px;
+  padding: 10px;
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+}
+
+.buttons{
+  background-color: #892ca0;
+  display: block;
+  width: 160px;
+  font-size: 16px;
+  color: white;
+  position: relative;
+  left: 170px;
+  top: -170px;
+  padding: 10px;
+  transition: ease;
+  transition-duration: 1s;
+}
+
+.buttons:hover{
+  color: #892ca0;
+  background-color: white;
+}
+
+
+/* Footer */
+
+footer{
+  position: relative;
+  bottom: 0px;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  border-top: 5px dashed white;
+  background-color: #ffd5d5;
+}
+
+/* Misc */
+
+a{
+  text-decoration: none;
+}
